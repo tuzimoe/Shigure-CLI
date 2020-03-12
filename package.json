@@ -1,0 +1,29 @@
+{
+  "name": "shigure",
+  "version": "1.0.0",
+  "description": "Shigure Strap",
+  "main": "",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tuzimoe/Shigure-CLI.git"
+  },
+  "author": "Usagi Ryuu",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tuzimoe/Shigure-CLI/issues"
+  },
+  "bin": {
+    "shigure": "./bin/shigure.js"
+  },
+  "homepage": "https://github.com/tuzimoe/Shigure-CLI#readme",
+  "dependencies": {
+    "chalk": "^2.3.2",
+    "co": "^4.6.0",
+    "co-prompt": "^1.0.0",
+    "commander": "^2.15.1",
+    "ora": "^2.0.0"
+  }
+}
